@@ -17,3 +17,9 @@ General Springboot release: 2.1.7.RELEASE
 Logging library:
 * spring-boot-starter-log4j2 2.1.7.RELEASE
 
+## Annotation Processor
+Activate the Annotation Processor feature. 
+https://immutables.github.io/apt.html
+
+IntellijIDEA 
+-> Preferences -> Build -> Compiler -> Annotation Processors
