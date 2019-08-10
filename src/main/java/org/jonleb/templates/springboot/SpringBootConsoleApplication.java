@@ -10,13 +10,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SpringBootConsoleApplication {
     public static void main(String[] args) throws Exception {
-
         SpringApplication.run(SpringBootConsoleApplication.class, args);
-
-    }
-
-    public void decodeJson(){
-        ObjectMapper mapper = new ObjectMapper();
-
     }
 }
