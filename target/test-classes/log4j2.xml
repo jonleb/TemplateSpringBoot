@@ -3,7 +3,7 @@
     <Properties>
         <Property name="LOG_PATTERN">
             <!-- https://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/PatternLayout.html -->
-            %d{yyyy-MM-dd HH:mm:ss} [%p] --- %C %M: %m%n%ex
+            %d{yyyy-MM-dd HH:mm:ss} [%p] --- %C: %m%n%ex
         </Property>
     </Properties>
     <Appenders>
