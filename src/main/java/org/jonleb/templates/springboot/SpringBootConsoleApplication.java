@@ -1,4 +1,4 @@
-package org.jonleb.tutorials.json;
+package org.jonleb.templates.springboot;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.boot.SpringApplication;
