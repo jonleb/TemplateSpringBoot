@@ -22,8 +22,7 @@ public class CharacterDtoTest {
                 .strength(13)
                 .wisdom(3)
                 .build();
-        var a = character != null;
-        assert a;
-        log.debug("End method with value " + a + " for " + character );
+        assert character != null;
+        log.debug(String.format("End method with value %s", character) );
     }
 }

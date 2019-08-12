@@ -1,0 +1,1 @@
+package org.jonleb.examples.support.mapstruct.mapper;
