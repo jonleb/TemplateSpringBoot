@@ -1,3 +1,5 @@
+Mapstruct will help to convert an object to another object by using a mapper. 
+It is a powerful tool when you have some specific domain object to dto.
 
 ```xml
 <dependency>
@@ -32,3 +34,12 @@ addressed
      </configuration>
  </plugin>
 ```
+
+One important point is that you can easily forget is to add the instruction 
+@Mapper(componentModel = "spring")
+on your interface mapper.
+An example is provided here: 
+TemplateSpringBoot/src/test/java/org/jonleb/examples/support/mapstruct/test/CharacterMapperTest.java
+
+
+[http://mapstruct.org/] (more details on mapstruct.org)
