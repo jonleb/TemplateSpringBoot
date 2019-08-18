@@ -28,7 +28,7 @@ public class CharacterMapperTest {
                 .wisdom(3)
                 .build();
         var character = characterMapper.characterDtoToCharater(characterDto);
-
+        characterDto = characterMapper.characterToCharacterDto(character);
         assert character.getCclass().equals(characterDto.getCclass());
         log.debug(characterDto + " is equal to " + character);
         log.debug("End test Character Mapper");
