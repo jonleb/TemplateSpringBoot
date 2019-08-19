@@ -3,12 +3,9 @@ package org.jonleb.examples.support.mapstruct.test;
 import lombok.extern.log4j.Log4j2;
 import org.jonleb.examples.support.lombok.CharacterDto;
 import org.jonleb.examples.support.mapstruct.mapper.CharacterMapper;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Test;
 import org.mapstruct.factory.Mappers;
-import org.springframework.test.context.junit4.SpringRunner;
 
-@RunWith(SpringRunner.class)
 @Log4j2
 public class CharacterMapperTest {
 

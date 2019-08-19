@@ -1,9 +1,6 @@
 package org.jonleb.examples.support.lombok;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.util.UUID;
 
@@ -14,6 +11,8 @@ import java.util.UUID;
  * An example with a Dungeons & Dragons character definittion
  */
 @Data
+@Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
