@@ -2,11 +2,12 @@ package org.jonleb.examples.support.lombok.test;
 
 import lombok.extern.log4j.Log4j2;
 import org.jonleb.examples.support.lombok.CharacterDto;
+import org.jonleb.templates.springboot.SpringBootConsoleApplication;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @Log4j2
-@SpringBootTest
+@SpringBootTest(classes = {SpringBootConsoleApplication.class})
 public class CharacterDtoTest {
     @Test
     public void testCharacterDtoInstantiation() {

@@ -18,7 +18,7 @@ public class CharacterController {
     public ResponseEntity<CharacterDto> getCharacterById(@PathVariable("characterId") UUID characterId){
         CharacterDto character = createCharacterDto();
         character.setUuid(characterId);
-        return new ResponseEntity<>(character, HttpStatus.OK);
+        return new ResponseEntity<CharacterDto>(character, HttpStatus.OK);
     }
 
     @GetMapping("/name/{surname}")
@@ -26,7 +26,7 @@ public class CharacterController {
             @PathVariable("surname") String surname){
         CharacterDto character = createCharacterDto();
         character.setName(surname);
-        return new ResponseEntity<>(character, HttpStatus.OK);
+        return new ResponseEntity<CharacterDto>(character, HttpStatus.OK);
     }
 
     private CharacterDto createCharacterDto() {
