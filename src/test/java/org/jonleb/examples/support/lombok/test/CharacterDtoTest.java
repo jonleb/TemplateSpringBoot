@@ -2,7 +2,7 @@ package org.jonleb.examples.support.lombok.test;
 
 import lombok.extern.log4j.Log4j2;
 import org.jonleb.examples.support.lombok.CharacterDto;
-import org.jonleb.templates.springboot.SpringBootConsoleApplication;
+import org.jonleb.templates.SpringBootConsoleApplication;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 

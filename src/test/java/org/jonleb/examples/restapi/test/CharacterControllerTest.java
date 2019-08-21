@@ -3,7 +3,7 @@ package org.jonleb.examples.restapi.test;
 import lombok.extern.log4j.Log4j2;
 import org.jonleb.examples.openid.WebSecurityConfiguration;
 import org.jonleb.examples.restapi.CharacterController;
-import org.jonleb.templates.springboot.SpringBootConsoleApplication;
+import org.jonleb.templates.SpringBootConsoleApplication;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
@@ -17,7 +17,12 @@ import java.util.UUID;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-@SpringBootTest(classes = {SpringBootConsoleApplication.class, CharacterController.class,WebSecurityConfiguration.class})
+@SpringBootTest(
+        classes = {
+                SpringBootConsoleApplication.class,
+                WebSecurityConfiguration.class,
+                CharacterController.class
+                })
 @AutoConfigureMockMvc
 @Log4j2
 class CharacterControllerTest {
